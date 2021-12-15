@@ -57,6 +57,8 @@ git log --pretty="%h - %s" --author='Junio C Hamano' --since="2008-10-01" \
 
 ```command line
 git commit [--amend](对上次commit进行修补工作)
+git restore(对working directory进行恢复) [--staged](对staged area进行恢复)
+
 ```
 
 ## 针对repo配置的指令
