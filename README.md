@@ -26,4 +26,21 @@
 1. [about git](https://docs.github.com/en/get-started/using-git/about-git#basic-git-commands)(github上对git的介绍)
 2. [git-reference](https://git-scm.com/docs)(git官网命令行参考手册 os: 我就看了几分钟，啃不动硌牙)
 3. [Pro Git](https://git-scm.com/book/en/v2)(很详细的官方推荐书籍，只用看前几章就可以了 os: 这个倒可以花时间认真看看，写得不错)
-4. nice
+
+## 针对repo开发的指令
+
+```command line
+git add
+git commit [-m] [-a]
+git diff [--staged]
+git status [--short]
+```
+
+## 针对repo配置的指令
+
+```command line
+git init
+git clone
+git config
+git push
+```
