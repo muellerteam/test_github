@@ -34,6 +34,8 @@ git add
 git commit [-m] [-a]
 git diff [--staged]
 git status [--short]
+git remove [-f] [--cache] (--cache指明从staged area删除该文件但不从working directory删除文件)
+git mv (用来对文件进行重命名)
 ```
 
 ## 针对repo配置的指令
