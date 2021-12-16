@@ -98,4 +98,6 @@ git config --global alias.<alias> <command>
 ```command line
 git branch <branch> (create a new branch)
 git checkout <branch> (switch to a new branch)
+
+git log --oneline --decorate --graph --all (paint a tree with all branches. os: cool!!!)
 ```
