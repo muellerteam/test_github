@@ -96,5 +96,6 @@ git config --global alias.<alias> <command>
 ### git killer feature -- branching model
 
 ```command line
-git branch <branch_name> (create a new branch)
+git branch <branch> (create a new branch)
+git checkout <branch> (switch to a new branch)
 ```
