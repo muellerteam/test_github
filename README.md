@@ -91,7 +91,7 @@ git remote remove <remote>
 ### git小技巧
 
 ```command line
-git config --global alias.<alias> <command> 
+git config --global alias.<alias> <command>
 (e.g. git config --global alias.st status, you can type ` git last ` instead ` git 'git log -1 HEAD' `)
 ```
 
@@ -111,4 +111,11 @@ git swtich - (switch to previous branch)
 
 git merge <branch> (e.g. git check out master | git merge hotfix)
 git merge --abort (abort the merge)
+git mergetool (graphical tool to resolve issues)
+```
+
+### git branch management
+
+```command line 
+git branch [-v] (list all exiting branches)
 ```
