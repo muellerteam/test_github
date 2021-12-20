@@ -116,6 +116,8 @@ git mergetool (graphical tool to resolve issues)
 
 ### git branch management
 
-```command line 
+```command line
 git branch [-v] (list all exiting branches)
+git branch [--merged/--no_merged]
+git branch --move <old_branch_name> <new_branch_name> (change the name of branch)
 ```
