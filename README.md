@@ -29,6 +29,8 @@
 
 ## git个人学习笔记
 
+因为git版本更新具有backward compatibility，所以很多指令的功能有所重叠，建议选择最直观常用的指令记忆
+
 ### 针对repo开发的常规指令
 
 ```command line
@@ -97,7 +99,15 @@ git config --global alias.<alias> <command>
 
 ```command line
 git branch <branch> (create a new branch)
+git branch -d <branch> (delete a branch)
+
 git checkout <branch> (switch to a new branch)
+git checkout -b <branch> (create and switch to a new branch)
 
 git log --oneline --decorate --graph --all (paint a tree with all branches. os: cool!!!)
+
+git switch [-c/--create]  <branch>
+git swtich - (switch to previous branch)
+
+git merge <branch> (e.g. git check out master | git merge hotfix)
 ```
