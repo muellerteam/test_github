@@ -134,7 +134,7 @@ string getMD5(string source)
 }
 int main()
 {
-    string ss;
+    string ss="a";
 //    cin>>ss;
     string s=getMD5("abc");
     cout<<s;
