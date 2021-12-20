@@ -110,4 +110,5 @@ git switch [-c/--create]  <branch>
 git swtich - (switch to previous branch)
 
 git merge <branch> (e.g. git check out master | git merge hotfix)
+git merge --abort (abort the merge)
 ```
