@@ -120,4 +120,5 @@ git mergetool (graphical tool to resolve issues)
 git branch [-v] (list all exiting branches)
 git branch [--merged/--no_merged]
 git branch --move <old_branch_name> <new_branch_name> (change the name of branch)
+git push --set-upstream origin <new_branch_name> (push new/rename branch to remote)
 ```
